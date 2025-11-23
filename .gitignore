@@ -1,5 +1,36 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Dataset files
+data/raw/
+data/processed/
+
+# Model files
+models/
+*.h5
+*.hdf5
+*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results
+results/
+# Byte-compiled / optimized / DLL files
+__pycache__/
 *.py[codz]
 *$py.class
 
