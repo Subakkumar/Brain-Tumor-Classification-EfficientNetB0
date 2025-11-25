@@ -1,0 +1,40 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🧠 Train Brain Tumor Model (GPU)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/brain_tumor_classifier.py",
+            "console": "integratedTerminal",
+            "env": {
+                "TF_FORCE_GPU_ALLOW_GROWTH": "true",
+                "TF_GPU_THREAD_MODE": "gpu_private"
+            },
+            "args": []
+        },
+        {
+            "name": "⚡ Test GPU Setup",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/test_gpu_setup.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "📊 Monitor GPU Performance",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/monitor_gpu.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "🔧 Debug Training",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/brain_tumor_classifier.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "stopOnEntry": false
+        }
+    ]
+}
