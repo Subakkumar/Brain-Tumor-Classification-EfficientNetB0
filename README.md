@@ -25,16 +25,6 @@ This project implements a robust brain tumor classification system that can dist
 - **GPU Acceleration** support
 - **Visualization Tools** including Grad-CAM
 
-## 📁 Project Structure
-Brain-Tumor-Classification-EfficientNetB0/
-├── src/
-│ └── brain_tumor_classifier.py # Main implementation
-├── data/ # Dataset directory
-├── models/ # Saved models
-├── results/ # Output visualizations
-├── notebooks/ # Jupyter notebooks
-├── requirements.txt # Dependencies
-└── README.md # Project documentation
 
 ## 🛠️ Installation
 
